@@ -71,3 +71,22 @@ T
 ## Notes to self:
 
 In order to indent an entire file of Lisp code automatically in Vim, do `gg=G`.
+
+
+## Links:
+
+Why Lisp is great:
+
+- [Paul Graham's essays](http://www.paulgraham.com/articles.html)
+- [The Lisp Curse](http://www.winestockwebdesign.com/Essays/Lisp_Curse.html)
+
+Why Lisp fails:
+
+- [The Language Squint Test](https://www.teamten.com/lawrence/writings/the_language_squint_test.html)
+
+Learn Lisp:
+
+- [Codementor - (learn '(LISP))](https://www.codementor.io/@skilbjo/learn-lisp-hba8gwngh)
+- [What's the best way to learn LISP? - Stack Overflow](https://stackoverflow.com/questions/398579/whats-the-best-way-to-learn-lisp)
+- [Practical Common Lisp](https://gigamonkeys.com/book/)
+- [ClojureDocs - Community-Powered Clojure Documentation and Examples](https://clojuredocs.org/)
