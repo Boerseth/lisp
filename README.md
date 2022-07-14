@@ -31,3 +31,43 @@ For easier viewing, it might be nice to pipe the output of the command above int
 $ clisp runner.lsp c3.lsp | tail -n 20
 $ clisp runner.lsp c1.lsp c2.lsp c2ex.lsp | less
 ```
+
+Example output:
+```cl
+$ clisp runner.lsp c3.lsp | head -n 30
+
+> (LOAD headers.lsp)
+/home/frode/Learning/lisp/ansicl/headers.lsp
+> (CHAPTER 3 LISTS)
+
+==================================================
+    3 LISTS
+==================================================
+> (SECTION 3 1 Conses)
+
+    3.1 Conses
+--------------------------------------------------
+> (SETF X (CONS 'A NIL))
+(A)
+> X
+(A)
+> (CAR X)
+A
+> (CDR X)
+NIL
+> (SETF Y (LIST 'A 'B 'C))
+(A B C)
+> (CDR Y)
+(B C)
+> (SETF Z (LIST 'A (LIST 'B 'C) 'D))
+(A (B C) D)
+> (CAR (CDR Z))
+(B C)
+> (CONSP (LIST 'A))
+T
+```
+
+
+## Notes to self:
+
+In order to indent an entire file of Lisp code automatically in Vim, do `gg=G`.
